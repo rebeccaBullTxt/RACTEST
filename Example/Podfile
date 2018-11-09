@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RACTEST_Example' do
+  pod 'RACTEST', :path => '../'
+
+  target 'RACTEST_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
