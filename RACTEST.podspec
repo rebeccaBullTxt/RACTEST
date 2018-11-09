@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RACTEST'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RACTEST.'
+  s.summary          = 'RACTESTRACTESTRACTEST'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'RACTESTRACTESTRACTESTRACTESTRACTESTRACTEST'
 
   s.homepage         = 'https://github.com/rebeccaBullTxt/RACTEST'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -36,7 +34,7 @@ TODO: Add long description of the pod here.
   #   'RACTEST' => ['RACTEST/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.public_header_files = 'RACTEST/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'ReactiveObjC'
 end

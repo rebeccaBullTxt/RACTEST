@@ -348,12 +348,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RACTEST_Example/Pods-RACTEST_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RACTEST/RACTEST.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RACTEST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

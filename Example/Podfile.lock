@@ -1,0 +1,23 @@
+PODS:
+  - RACTEST (0.1.0):
+    - ReactiveObjC
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - RACTEST (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  RACTEST:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RACTEST: 802088e41f57b3544fc0bfbc7a2dfb009762d68d
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: e6da036b0e5db1816f87d6681a6793c281fe2614
+
+COCOAPODS: 1.5.3
